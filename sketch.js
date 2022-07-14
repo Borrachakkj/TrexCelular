@@ -50,7 +50,7 @@ function setup(){
   trex.addAnimation("trexF", trexF);
   trex.scale=0.7;
   //chão
-  chao = createSprite(whidth/2,height,width,20);
+  chao = createSprite(width/2,height,width,20);
   chao.addImage(chaoImg);
   //grupo de nuvens e cactus
   grupoCactus = createGroup();
